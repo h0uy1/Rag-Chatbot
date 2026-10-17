@@ -1,0 +1,27 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/classic": "^1.0.34",
+    "@langchain/community": "^1.1.29",
+    "@langchain/core": "^1.1.48",
+    "@langchain/mongodb": "^1.2.1",
+    "@langchain/ollama": "^1.2.7",
+    "axios": "^1.17.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.2.1",
+    "langchain": "^1.4.4",
+    "mongodb": "^7.2.0",
+    "ollama": "^0.6.3"
+  }
+}
