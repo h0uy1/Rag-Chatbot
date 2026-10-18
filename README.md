@@ -2,6 +2,9 @@
 
 A local Retrieval-Augmented Generation chatbot. Upload documents (e.g. a candidate's resume) through the web UI, they get embedded and stored in MongoDB Atlas Vector Search, and questions are answered by a local LLM running on Ollama using the most relevant documents as context.
 
+## Result
+<img width="1277" height="902" alt="image" src="https://github.com/user-attachments/assets/860fdaf7-f62c-48c0-97ee-2b5916fdbfdf" />
+
 ## Tech stack
 
 - **Node.js + Express**: API server and static frontend
