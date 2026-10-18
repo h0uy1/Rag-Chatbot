@@ -4,7 +4,6 @@ import axios from "axios";
 import { MongoDBAtlasVectorSearch } from "@langchain/mongodb";
 import { OllamaEmbeddings } from "@langchain/ollama";
 import { MongoClient } from "mongodb";
-import { RetrievalQAChain } from "@langchain/classic/chains";
 import {
   JSONLoader,
   JSONLinesLoader,

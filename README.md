@@ -24,8 +24,10 @@ A local Retrieval-Augmented Generation chatbot. Upload documents (e.g. a candida
 ```bash
 git clone <your-repo-url>
 cd chatbot
-npm install
+npm install --legacy-peer-deps
 ```
+
+The flag avoids a peer-dependency conflict between `dotenv` and an unused browser integration pulled in by `@langchain/community`.
 
 ### 2. Pull the Ollama models
 
